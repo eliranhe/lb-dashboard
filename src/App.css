@@ -1,0 +1,46 @@
+.App {
+    padding: 50px;
+}
+
+.highcharts-container {
+    margin: auto;
+}
+
+.region, .header {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    padding-bottom: 10px;
+}
+
+.region-details, .region-header {
+    flex: 1;
+}
+
+.instance-groups, .instance-groups-header {
+    flex: 3;
+}
+
+.instance-group {
+    border-top: 1px solid grey;
+    display: flex;
+    padding: 10px;
+}
+
+.instance-group > div {
+    padding-left: 5px;
+    flex: 1;
+}
+
+.instance-group-color {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.instance-group-problem {
+    width: 16px;
+    height: 16px;
+}
